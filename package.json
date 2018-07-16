@@ -1,0 +1,17 @@
+{
+  "name": "@omio/nodejs-request-param-normalizer",
+  "description": "NodeJS Middleware helper function which is used to normalize and validate Request Parameters.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Omi0/nodejs-request-param-normalizer.git"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "body-parser": "^1.18.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}

@@ -98,3 +98,22 @@ app.post("/", paramNormalizer({
   }
 );
 ```
+
+If normalization and validation fails the output is shows as follows:
+
+```
+res.status(400).json({
+  message: params.validated.errors.join("; \n")
+});
+```
+
+JSON Error example:
+```
+{
+  message: "
+    Required property "name" is empty or has no value;
+    Param property "user_options" must be a type of object;
+    Param property "user_password" hasn't specified in schema
+  "
+}
+```

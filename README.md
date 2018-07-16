@@ -107,7 +107,7 @@ res.status(400).json({
 });
 ```
 
-JSON Error example:
+Returned Error JSON example:
 ```
 {
   message: "
